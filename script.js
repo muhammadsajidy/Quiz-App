@@ -141,7 +141,7 @@ goButton.addEventListener("click",() => {
 })
 
 answersButton.addEventListener("click", () => {
-    questionBox.innerHTML = ''; // Clear previous content
+    questionBox.innerHTML = ''; 
     
     quiz.forEach((question) => {
         let p = document.createElement("p");

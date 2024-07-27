@@ -1,0 +1,23 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A quiz app consisting of 10 JavaScript questions",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadsajidy/Quiz-App.git"
+  },
+  "author": "Muhammad Sajid Y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadsajidy/Quiz-App/issues"
+  },
+  "homepage": "https://github.com/muhammadsajidy/Quiz-App#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  },
+  "start": "json-server --watch database.json"
+}
